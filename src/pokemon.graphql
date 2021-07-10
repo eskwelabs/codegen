@@ -1,0 +1,11 @@
+query GET_POKEMONS {
+  pokemons(first: 1) {
+    attacks {
+      fast {
+        name
+        type
+        damage
+      }
+    }
+  }
+}
